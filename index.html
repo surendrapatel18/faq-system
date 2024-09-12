@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="faq-section">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h2>What is this FAQ about?</h2>
+                    <span class="faq-arrow">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>This FAQ section helps answer common questions users may have.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h2>How does it work?</h2>
+                    <span class="faq-arrow">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Click on a question to expand and see the answer. Click again to collapse it.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h2>Is it responsive?</h2>
+                    <span class="faq-arrow">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, this section is fully responsive and works well on screens as small as 320px.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
